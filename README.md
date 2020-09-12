@@ -12,7 +12,10 @@
 <!-- <h4><a href="https://wrappixel.com/demos/admin-templates/admin-wrap-lite/html/index.html">Free Version Demo Link</a></h4> -->
 <!-- Description of Template -->
 <p>
-  Lorem Ipsume
+  One of the most carefully designed <a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">free admin template bootstrap 4</a> that can be readily used for your projects is AdminWrap Lite offering easy customization options. When you have a tough time with a budget this template can be handy with its fully responsive pages.
+</p>
+<p>
+  It is based on the Bootstrap 4 framework and SaSS Base CSS with a wide range of components, elements and other features available in its free version. You get a profile page, basic dashboard, amazing font icons, page templates, essential UI components, Google Map integration support and above all, it is available for free. If you want to consider the pro version of this admin dashboard using bootstrap 4 for your commercial projects, it comes with a complete bundle of features and components available to purchase on WrapPixel’s website.
 </p>
 
 <!-- Versions of Template -->
