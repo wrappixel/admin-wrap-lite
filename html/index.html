@@ -7,7 +7,7 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, AdminWrap lite admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, AdminWrap lite design, AdminWrap lite dashboard bootstrap 4 dashboard template">
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, AdminWrap lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, AdminWrap lite design, AdminWrap lite dashboard bootstrap 5 dashboard template">
     <meta name="description"
         content="AdminWrap Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
@@ -83,7 +83,7 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav me-auto">
                         <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
                                 href="javascript:void(0)"><i class="fa fa-bars"></i></a> </li>
                         <!-- ============================================================== -->
@@ -105,10 +105,11 @@
                         <!-- Profile -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown u-pro">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href=""
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#"
+                                id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
                                     src="../assets/images/users/1.jpg" alt="user" class="" /> <span
                                     class="hidden-md-down">Mark Sanders &nbsp;</span> </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
                         </li>
                     </ul>
                 </div>
@@ -148,9 +149,9 @@
                                     class="fa fa-question-circle"></i><span class="hide-menu">404</span></a>
                         </li>
                     </ul>
-                    <div class="text-center m-t-30">
-                        <a href="https://wrappixel.com/templates/adminwrap/"
-                            class="btn waves-effect waves-light btn-info hidden-md-down"> Upgrade to Pro</a>
+                    <div class="text-center mt-4">
+                        <a href="https://www.wrappixel.com/templates/adminwrap/"
+                            class="btn waves-effect waves-light btn-info hidden-md-down text-white"> Upgrade to Pro</a>
                     </div>
                 </nav>
                 <!-- End Sidebar navigation -->
@@ -180,8 +181,8 @@
                         </ol>
                     </div>
                     <div class="col-md-7 align-self-center">
-                        <a href="https://wrappixel.com/templates/adminwrap/"
-                            class="btn waves-effect waves-light btn btn-info pull-right hidden-sm-down"> Upgrade to
+                        <a href="https://www.wrappixel.com/templates/adminwrap/"
+                            class="btn waves-effect waves-light btn btn-info pull-right hidden-sm-down text-white"> Upgrade to
                             Pro</a>
                     </div>
                 </div>
@@ -198,9 +199,9 @@
                             <div class="card-body">
                                 <div class="d-flex no-block">
                                     <div>
-                                        <h5 class="card-title m-b-0">Sales Chart</h5>
+                                        <h5 class="card-title mb-0">Sales Chart</h5>
                                     </div>
-                                    <div class="ml-auto">
+                                    <div class="ms-auto">
                                         <ul class="list-inline text-center font-12">
                                             <li><i class="fa fa-circle text-success"></i> SITE A</li>
                                             <li><i class="fa fa-circle text-info"></i> SITE B</li>
@@ -216,17 +217,17 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <div class="d-flex m-b-30 no-block">
-                                    <h5 class="card-title m-b-0 align-self-center">Our Visitors</h5>
-                                    <div class="ml-auto">
-                                        <select class="custom-select b-0">
+                                <div class="d-flex mb-4 no-block">
+                                    <h5 class="card-title mb-0 align-self-center">Our Visitors</h5>
+                                    <div class="ms-auto">
+                                        <select class="form-select b-0">
                                             <option selected="">Today</option>
                                             <option value="1">Tomorrow</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div id="visitor" style="height:260px; width:100%;"></div>
-                                <ul class="list-inline m-t-30 text-center font-12">
+                                <ul class="list-inline mt-4 text-center font-12">
                                     <li><i class="fa fa-circle text-purple"></i> Tablet</li>
                                     <li><i class="fa fa-circle text-success"></i> Desktops</li>
                                     <li><i class="fa fa-circle text-info"></i> Mobile</li>
@@ -243,15 +244,15 @@
                 <!-- ============================================================== -->
                 <div class="row">
                     <!-- Column -->
-                    <div class="col-lg-8">
-                        <div class="card">
+                    <div class="col-lg-8 d-flex align-items-stretch">
+                        <div class="card w-100">
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div>
                                         <h5 class="card-title">Projects of the Month</h5>
                                     </div>
-                                    <div class="ml-auto">
-                                        <select class="custom-select b-0">
+                                    <div class="ms-auto">
+                                        <select class="form-select b-0">
                                             <option selected="">January</option>
                                             <option value="1">February</option>
                                             <option value="2">March</option>
@@ -259,7 +260,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="table-responsive m-t-20 no-wrap">
+                                <div class="table-responsive mt-3 no-wrap">
                                     <table class="table vm no-th-brd pro-of-month">
                                         <thead>
                                             <tr>
@@ -318,20 +319,20 @@
                     </div>
                     <!-- Column -->
                     <!-- Column -->
-                    <div class="col-lg-4">
-                        <div class="card">
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="card w-100">
                             <div class="up-img" style="background-image:url(../assets/images/big/img1.jpg)"></div>
                             <div class="card-body">
                                 <h5 class=" card-title">Business development of rules</h5>
                                 <span class="label label-info label-rounded">Technology</span>
-                                <p class="m-b-0 m-t-20">Titudin venenatis ipsum aciat. Vestibu ullamer quam. nenatis
+                                <p class="mb-0 mt-3">Titudin venenatis ipsum aciat. Vestibu ullamer quam. nenatis
                                     ipsum ac feugiat. Ibulum ullamcorper.</p>
-                                <div class="d-flex m-t-20">
+                                <div class="d-flex mt-3">
                                     <a class="link" href="javascript:void(0)">Read more</a>
-                                    <div class="ml-auto align-self-center">
-                                        <a href="javascript:void(0)" class="link m-r-10"><i
+                                    <div class="ms-auto align-self-center">
+                                        <a href="javascript:void(0)" class="link me-2"><i
                                                 class="fa fa-heart-o"></i></a>
-                                        <a href="javascript:void(0)" class="link m-r-10"><i
+                                        <a href="javascript:void(0)" class="link me-2"><i
                                                 class="fa fa-share-alt"></i></a>
                                     </div>
                                 </div>
@@ -350,13 +351,12 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card card-body mailbox">
                             <h5 class="card-title">Notification</h5>
-                            <div class="message-center ps ps--theme_default ps--active-y"
-                                data-ps-id="a045fe3c-cb6e-028e-3a70-8d6ff0d7f6bd">
+                            <div class="message-center" style="height: 420px !important;">
                                 <!-- Message -->
                                 <a href="#">
                                     <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
                                     <div class="mail-contnet">
-                                        <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span>
+                                        <h6 class="text-dark font-medium mb-0">Luanch Admin</h6> <span class="mail-desc">Just see the my new admin!</span>
                                         <span class="time">9:30 AM</span>
                                     </div>
                                 </a>
@@ -364,15 +364,15 @@
                                 <a href="#">
                                     <div class="btn btn-success btn-circle"><i class="fa fa-calendar-check-o"></i></div>
                                     <div class="mail-contnet">
-                                        <h5>Event today</h5> <span class="mail-desc">Just a reminder that you have
+                                        <h6 class="text-dark font-medium mb-0">Event today</h6> <span class="mail-desc">Just a reminder that you have
                                             event</span> <span class="time">9:10 AM</span>
                                     </div>
                                 </a>
                                 <!-- Message -->
                                 <a href="#">
-                                    <div class="btn btn-info btn-circle"><i class="fa fa-cog"></i></div>
+                                    <div class="btn btn-info btn-circle"><i class="fa fa-cog text-white"></i></div>
                                     <div class="mail-contnet">
-                                        <h5>Settings</h5> <span class="mail-desc">You can customize this template as you
+                                        <h6 class="text-dark font-medium mb-0">Settings</h6> <span class="mail-desc">You can customize this template as you
                                             want</span> <span class="time">9:08 AM</span>
                                     </div>
                                 </a>
@@ -380,7 +380,23 @@
                                 <a href="#">
                                     <div class="btn btn-primary btn-circle"><i class="fa fa-user"></i></div>
                                     <div class="mail-contnet">
-                                        <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span
+                                        <h6 class="text-dark font-medium mb-0">Pavan kumar</h6> <span class="mail-desc">Just see the my admin!</span> <span
+                                            class="time">9:02 AM</span>
+                                    </div>
+                                </a>
+                                <!-- Message -->
+                                <a href="#">
+                                    <div class="btn btn-info btn-circle"><i class="fa fa-cog text-white"></i></div>
+                                    <div class="mail-contnet">
+                                        <h6 class="text-dark font-medium mb-0">Customize Themes</h6> <span class="mail-desc">You can customize this template as you
+                                            want</span> <span class="time">9:08 AM</span>
+                                    </div>
+                                </a>
+                                <!-- Message -->
+                                <a href="#">
+                                    <div class="btn btn-primary btn-circle"><i class="fa fa-user"></i></div>
+                                    <div class="mail-contnet">
+                                        <h6 class="text-dark font-medium mb-0">Pavan kumar</h6> <span class="mail-desc">Just see the my admin!</span> <span
                                             class="time">9:02 AM</span>
                                     </div>
                                 </a>
@@ -422,14 +438,6 @@
                                         <div class="bg-light-danger"><i class="fa fa-user"></i></div> New user
                                         registered.<span class="text-muted">30 May</span>
                                     </li>
-                                    <li>
-                                        <div class="bg-light-inverse"><i class="fa fa-bell-o"></i></div> New Version
-                                        just arrived. <span class="text-muted">27 May</span>
-                                    </li>
-                                    <li>
-                                        <div class="bg-light-primary"><i class="fa fa-cog"></i></div> You have 4 pending
-                                        tasks. <span class="text-muted">27 May</span>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -449,7 +457,7 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer"> © 2020 Adminwrap by <a href="https://www.wrappixel.com/">wrappixel.com</a> </footer>
+            <footer class="footer"> © 2021 Adminwrap by <a href="https://www.wrappixel.com/">wrappixel.com</a> </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
@@ -466,8 +474,7 @@
     <!-- ============================================================== -->
     <script src="../assets/node_modules/jquery/jquery.min.js"></script>
     <!-- Bootstrap popper Core JavaScript -->
-    <script src="../assets/node_modules/bootstrap/js/popper.min.js"></script>
-    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
     <script src="js/perfect-scrollbar.jquery.min.js"></script>
     <!--Wave Effects -->
