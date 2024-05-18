@@ -23,7 +23,7 @@ AdminWrap Bootstrap Admin Dashboard
     <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/adminwrap-bootstrap-free/html/index.html">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/adminwrap-bootstrap-free/landingpage/index.html">Live Preview</a>
+  <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/adminwrap-bootstrap/package/main/index.html">Live Preview</a>
   </td>
 </tr>
 <tr>
@@ -71,7 +71,7 @@ AdminWrap Bootstrap Admin Dashboard
   7+ Pages Template
   </td>
   <td>
-  600+ Page Templates
+  500+ Page Templates
   </td>
 </tr>
 <tr>
@@ -140,7 +140,7 @@ AdminWrap Bootstrap Admin Dashboard
 </a>
 <p>
   Checkout our premium version of AdminWrap Bootstrap Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/adminwrap-bootstrap-free/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/adminwrap/">Download</a>
+  <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/adminwrap-bootstrap/package/main/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/adminwrap/">Download</a>
 </p>
 
 <!-- Versions of Template -->
